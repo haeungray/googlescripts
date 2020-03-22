@@ -63,7 +63,7 @@ function onMessage(event) {
   }
   else {
     waitMsg(params['ET']);
-    var response = UrlFetchApp.fetch('http://61.34.178.144:3000/'+ params['url']);
+    var response = UrlFetchApp.fetch('ip_address'+ params['url']);
     Logger.log('response ' + response);
     var widgets = [{
       "textParagraph": {
