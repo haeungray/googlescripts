@@ -65,7 +65,7 @@ function onMessage(event) {
 
   var widgets = [{
     textParagraph: {
-      text: '안녕하세요 스마트워크팀 입니다. <br/>' + name + '님 어떤 문의가 필요하신가요?'
+      text: '안녕하세요 스마트워크팀 입니다. <br/>' + name + '님 저는 아직 성장중입니다!'
     }
   },{
     buttons: [{
